@@ -1,0 +1,12 @@
+{
+  "complete_user_history": true,
+  "candidates_unique": true,
+  "negatives_per_query": 99,
+  "labels_recomputed_all_rows": true,
+  "catalog_past_only": true,
+  "nonoverlapping_label_windows": true,
+  "sampled_manual_count_checks": 10,
+  "source_hashes_verified": true,
+  "rows": 1467269,
+  "features": 89
+}

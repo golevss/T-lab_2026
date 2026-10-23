@@ -1,0 +1,13 @@
+{
+  "total_experiment_seconds": 1127.194953700062,
+  "selection_fit_seconds": 874.1274755999912,
+  "train_query_cap": 5000,
+  "training_queries": 5000,
+  "training_rows": 506092,
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.4.4",
+  "pandas": "2.2.2",
+  "catboost": "1.2.8",
+  "sklearn": "1.9.1"
+}

@@ -1,0 +1,143 @@
+{
+  "kind": "graph",
+  "trials": [
+    {
+      "name": "baseline",
+      "mode": "graph",
+      "ranker": false,
+      "params": {
+        "depth": 5,
+        "iterations": 180,
+        "learning_rate": 0.08
+      },
+      "features": 40,
+      "fit_seconds": 12.034032900002785,
+      "logloss": 0.0936132893393982,
+      "roc_auc": 0.8156976534308932,
+      "ndcg10": 0.3609955530528062,
+      "recall10": 0.5263868773350453,
+      "queries": 757
+    },
+    {
+      "name": "item_knn",
+      "mode": "knn",
+      "ranker": false,
+      "params": {
+        "depth": 5,
+        "iterations": 180,
+        "learning_rate": 0.08
+      },
+      "features": 43,
+      "fit_seconds": 11.58967599994503,
+      "logloss": 0.09344294739351923,
+      "roc_auc": 0.8163221719637876,
+      "ndcg10": 0.3572314422196185,
+      "recall10": 0.5183720479694894,
+      "queries": 757
+    },
+    {
+      "name": "rich",
+      "mode": "rich",
+      "ranker": false,
+      "params": {
+        "depth": 5,
+        "iterations": 180,
+        "learning_rate": 0.08
+      },
+      "features": 73,
+      "fit_seconds": 12.726617399952374,
+      "logloss": 0.0926345771932201,
+      "roc_auc": 0.8217895451733794,
+      "ndcg10": 0.3713575032140574,
+      "recall10": 0.5320602128795829,
+      "queries": 757
+    },
+    {
+      "name": "ranker",
+      "mode": "rich",
+      "ranker": true,
+      "params": {
+        "depth": 5,
+        "iterations": 120,
+        "learning_rate": 0.08
+      },
+      "features": 73,
+      "fit_seconds": 25.016973400022835,
+      "logloss": null,
+      "roc_auc": 0.8099767020852515,
+      "ndcg10": 0.35429369618907125,
+      "recall10": 0.5235756932160672,
+      "queries": 757
+    }
+  ],
+  "validation": [
+    {
+      "name": "baseline",
+      "mode": "graph",
+      "params": {
+        "depth": 7,
+        "iterations": 260,
+        "learning_rate": 0.05
+      },
+      "ranker": false,
+      "features": 40,
+      "seconds": 63.145638000103645,
+      "logloss": 0.09288086730100033,
+      "roc_auc": 0.8192157140617344,
+      "ndcg10": 0.36673305972771136,
+      "recall10": 0.5321980795630243,
+      "queries": 757
+    },
+    {
+      "name": "candidate",
+      "mode": "rich",
+      "params": {
+        "depth": 7,
+        "iterations": 260,
+        "learning_rate": 0.05
+      },
+      "ranker": false,
+      "features": 73,
+      "seconds": 72.41107939998619,
+      "logloss": 0.09184108751993328,
+      "roc_auc": 0.8253231235500886,
+      "ndcg10": 0.37597385309617026,
+      "recall10": 0.5358932425234656,
+      "queries": 757
+    }
+  ],
+  "winner": {
+    "name": "candidate",
+    "mode": "rich",
+    "params": {
+      "depth": 7,
+      "iterations": 260,
+      "learning_rate": 0.05
+    },
+    "ranker": false,
+    "features": 73,
+    "seconds": 72.41107939998619,
+    "logloss": 0.09184108751993328,
+    "roc_auc": 0.8253231235500886,
+    "ndcg10": 0.37597385309617026,
+    "recall10": 0.5358932425234656,
+    "queries": 757
+  },
+  "baseline": {
+    "name": "baseline",
+    "mode": "graph",
+    "params": {
+      "depth": 7,
+      "iterations": 260,
+      "learning_rate": 0.05
+    },
+    "ranker": false,
+    "features": 40,
+    "seconds": 63.145638000103645,
+    "logloss": 0.09288086730100033,
+    "roc_auc": 0.8192157140617344,
+    "ndcg10": 0.36673305972771136,
+    "recall10": 0.5321980795630243,
+    "queries": 757
+  }
+}

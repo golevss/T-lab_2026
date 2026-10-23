@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+.ruff_cache/
+data/*.pkl
+data/*.zip
+results/upgrades/*.pkl
+results/upgrades/features_key.json

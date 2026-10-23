@@ -1,0 +1,25 @@
+{
+  "full_pipeline_exit_code": 0,
+  "elapsed_seconds": 507.54727229999844,
+  "manifest_verified": true,
+  "all_test_metrics_match_atol": 1e-12,
+  "all_test_predictions_match_atol": 1e-12,
+  "selection_identical": true,
+  "test_rows": 84207,
+  "source_project": "C:\\Users\\semen\\works_uni\\T-lab_2026\\recsys-graph-study",
+  "original_results_retained": true,
+  "all_validation_metrics_match_atol": 1e-12,
+  "experimental_code_and_input_ids_unchanged": true,
+  "dependency_versions": {
+    "catboost": "1.2.8",
+    "numpy": "2.4.4",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "scipy": "1.17.1"
+  },
+  "readme_original_characters": 15368,
+  "readme_compact_characters": 12904,
+  "readme_reduction_percent": 16.033315981259765,
+  "all_7_tables_commands_numeric_tokens_original_links_preserved": true
+}

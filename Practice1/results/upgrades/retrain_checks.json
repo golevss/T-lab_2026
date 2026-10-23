@@ -1,0 +1,5 @@
+{
+  "active_retraining_reproduces_predictions": true,
+  "rows": 168885,
+  "max_abs_difference": 0.0
+}

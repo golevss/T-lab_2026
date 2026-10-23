@@ -1,0 +1,52 @@
+{
+  "readme_before_chars": 13433,
+  "readme_after_chars": 10747,
+  "reduction_percent": 20.0,
+  "all_result_tables_preserved": true,
+  "removed": [
+    {
+      "path": "data/features.pkl",
+      "bytes": 525597538
+    },
+    {
+      "path": "data/queries.pkl",
+      "bytes": 86985705
+    },
+    {
+      "path": "results/upgrades/features.pkl",
+      "bytes": 455162698
+    },
+    {
+      "path": "__pycache__",
+      "bytes": 134330
+    },
+    {
+      "path": "results/upgrades/features_key.json",
+      "bytes": 89
+    },
+    {
+      "path": "verification/cleanup.json",
+      "bytes": 2425
+    }
+  ],
+  "freed_bytes": 1067882785,
+  "duplicate_evidence": [],
+  "unit_tests_passed": 3,
+  "data_and_metrics_audit_passed": true,
+  "serving_checks": {
+    "serving_matches_saved_features": true,
+    "candidate_labels_ignored": true,
+    "unknown_items_rejected": true,
+    "rows": 10,
+    "seconds": 6.458094399888068,
+    "promoted": true
+  },
+  "comments_and_docstrings": 0,
+  "prediction_after_cache_removal": {
+    "rows": 10,
+    "warm_and_cold": true,
+    "candidate_labels_ignored": true,
+    "finite_scores": true,
+    "graph_saved_predictions_match": false
+  }
+}

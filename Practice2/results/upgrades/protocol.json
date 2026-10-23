@@ -1,0 +1,18 @@
+{
+  "primary_metric": "mean query NDCG@10",
+  "primary_comparisons": 3,
+  "family_error_rate": 0.05,
+  "bootstrap_resamples": 4000,
+  "interval_quantiles": [
+    0.008333333333333333,
+    0.9916666666666667
+  ],
+  "promotion_requires": [
+    "positive validation change on full original training",
+    "positive lower family-adjusted CI on fresh users",
+    "no Recall@10 reduction on fresh users",
+    "no NDCG@10 or Recall@10 reduction in legacy regression check"
+  ],
+  "selection_uses": "original validation only",
+  "fresh_training": "locked configurations, no selection on fresh validation/test"
+}

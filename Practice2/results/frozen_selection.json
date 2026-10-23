@@ -1,0 +1,23 @@
+{
+  "graph": {
+    "representation": "graph32",
+    "hybrid": "graph32"
+  },
+  "parameters": {
+    "manual": {
+      "depth": 7,
+      "iterations": 260,
+      "learning_rate": 0.05
+    },
+    "representation": {
+      "depth": 5,
+      "iterations": 180,
+      "learning_rate": 0.08
+    },
+    "hybrid": {
+      "depth": 7,
+      "iterations": 260,
+      "learning_rate": 0.05
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "users": 5000,
+  "excluded_users": 15000,
+  "events": 30448,
+  "seed": 20261023,
+  "overlap": 0,
+  "seconds": 124.94961030001286,
+  "snapshots": [
+    {
+      "snapshot": 0,
+      "cutoff": "2021-06-14",
+      "rows": 72469,
+      "queries": 716
+    },
+    {
+      "snapshot": 1,
+      "cutoff": "2021-06-21",
+      "rows": 59424,
+      "queries": 587
+    },
+    {
+      "snapshot": 2,
+      "cutoff": "2021-06-28",
+      "rows": 78076,
+      "queries": 772
+    },
+    {
+      "snapshot": 3,
+      "cutoff": "2021-07-05",
+      "rows": 61625,
+      "queries": 609
+    },
+    {
+      "snapshot": 4,
+      "cutoff": "2021-07-12",
+      "rows": 69864,
+      "queries": 690
+    },
+    {
+      "snapshot": 5,
+      "cutoff": "2021-07-19",
+      "rows": 65320,
+      "queries": 644
+    },
+    {
+      "snapshot": 6,
+      "cutoff": "2021-07-26",
+      "rows": 76810,
+      "queries": 758
+    },
+    {
+      "snapshot": 7,
+      "cutoff": "2021-08-02",
+      "rows": 80105,
+      "queries": 790
+    },
+    {
+      "snapshot": 8,
+      "cutoff": "2021-08-09",
+      "rows": 81742,
+      "queries": 806
+    },
+    {
+      "snapshot": 9,
+      "cutoff": "2021-08-16",
+      "rows": 86083,
+      "queries": 848
+    }
+  ]
+}

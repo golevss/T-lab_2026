@@ -1,0 +1,152 @@
+[
+  {
+    "name": "manual_0",
+    "parameters": {
+      "depth": 5,
+      "iterations": 180,
+      "learning_rate": 0.08
+    },
+    "features": 34,
+    "fit_seconds": 23.934116099961102,
+    "logloss": 0.09436797517827764,
+    "roc_auc": 0.8109459543419666,
+    "ndcg10": 0.3531443401520461,
+    "recall10": 0.5225574193279122,
+    "queries": 757
+  },
+  {
+    "name": "manual_1",
+    "parameters": {
+      "depth": 7,
+      "iterations": 260,
+      "learning_rate": 0.05
+    },
+    "features": 34,
+    "fit_seconds": 59.60542149993125,
+    "logloss": 0.09453613110656509,
+    "roc_auc": 0.8106126988356388,
+    "ndcg10": 0.35409116171382965,
+    "recall10": 0.5159254717796051,
+    "queries": 757
+  },
+  {
+    "name": "representation_graph16",
+    "parameters": {
+      "depth": 5,
+      "iterations": 180,
+      "learning_rate": 0.08
+    },
+    "features": 6,
+    "fit_seconds": 3.96773909998592,
+    "logloss": 0.10629587873959674,
+    "roc_auc": 0.668766350223789,
+    "ndcg10": 0.14359650512775343,
+    "recall10": 0.2287317998270164,
+    "queries": 757
+  },
+  {
+    "name": "representation_graph32",
+    "parameters": {
+      "depth": 5,
+      "iterations": 180,
+      "learning_rate": 0.08
+    },
+    "features": 6,
+    "fit_seconds": 3.917844699928537,
+    "logloss": 0.10493454874027597,
+    "roc_auc": 0.6809219724252338,
+    "ndcg10": 0.1589310921543659,
+    "recall10": 0.2504186201563313,
+    "queries": 757
+  },
+  {
+    "name": "representation_no_categories",
+    "parameters": {
+      "depth": 5,
+      "iterations": 180,
+      "learning_rate": 0.08
+    },
+    "features": 6,
+    "fit_seconds": 3.9326301000546664,
+    "logloss": 0.10839335493929045,
+    "roc_auc": 0.6169006488085707,
+    "ndcg10": 0.11448169764172172,
+    "recall10": 0.18101329817678977,
+    "queries": 757
+  },
+  {
+    "name": "representation_grid1",
+    "parameters": {
+      "depth": 7,
+      "iterations": 260,
+      "learning_rate": 0.05
+    },
+    "features": 6,
+    "fit_seconds": 10.7611938000191,
+    "logloss": 0.10502010063987173,
+    "roc_auc": 0.6801425296022596,
+    "ndcg10": 0.15781436538112603,
+    "recall10": 0.24517608570483493,
+    "queries": 757
+  },
+  {
+    "name": "hybrid_graph16",
+    "parameters": {
+      "depth": 5,
+      "iterations": 180,
+      "learning_rate": 0.08
+    },
+    "features": 40,
+    "fit_seconds": 23.61860009992961,
+    "logloss": 0.09335029361284194,
+    "roc_auc": 0.8173926655984739,
+    "ndcg10": 0.35878158922484554,
+    "recall10": 0.5292009684252261,
+    "queries": 757
+  },
+  {
+    "name": "hybrid_graph32",
+    "parameters": {
+      "depth": 5,
+      "iterations": 180,
+      "learning_rate": 0.08
+    },
+    "features": 40,
+    "fit_seconds": 23.91278140002396,
+    "logloss": 0.09298296768207268,
+    "roc_auc": 0.8180308924663697,
+    "ndcg10": 0.3619250145173213,
+    "recall10": 0.5289299529296401,
+    "queries": 757
+  },
+  {
+    "name": "hybrid_no_categories",
+    "parameters": {
+      "depth": 5,
+      "iterations": 180,
+      "learning_rate": 0.08
+    },
+    "features": 40,
+    "fit_seconds": 23.579357400070876,
+    "logloss": 0.09433093164729497,
+    "roc_auc": 0.8088743315455461,
+    "ndcg10": 0.34641168459310717,
+    "recall10": 0.5101408373622098,
+    "queries": 757
+  },
+  {
+    "name": "hybrid_grid1",
+    "parameters": {
+      "depth": 7,
+      "iterations": 260,
+      "learning_rate": 0.05
+    },
+    "features": 40,
+    "fit_seconds": 61.825921199982986,
+    "logloss": 0.09288086730100033,
+    "roc_auc": 0.8192157140617344,
+    "ndcg10": 0.36673305972771136,
+    "recall10": 0.5321980795630243,
+    "queries": 757
+  }
+]

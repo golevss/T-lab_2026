@@ -1,0 +1,353 @@
+{
+  "commit": "f69775be31fa5779907cf0a92ddedb70037fb5ae",
+  "seed": 2026,
+  "users": 5000,
+  "events": 28260,
+  "source_rows": 5476251,
+  "source_users": 962179,
+  "disjoint_previous_users": true,
+  "history_complete": true,
+  "duplicate_pairs": 0,
+  "source_sha256": "50fc5b7db78cbda4c3d0ee5bb5bea4c416cff41e8af58aab0b661d0d3e9dfa9b",
+  "prepare_seconds": 95.91298620007001,
+  "snapshots": [
+    {
+      "cutoff": "2021-06-28",
+      "split": "train",
+      "history": 13796,
+      "queries": 826,
+      "rows": 83399,
+      "positives": 1625,
+      "excluded_cold": 171
+    },
+    {
+      "cutoff": "2021-07-05",
+      "split": "train",
+      "history": 15592,
+      "queries": 643,
+      "rows": 65032,
+      "positives": 1375,
+      "excluded_cold": 270
+    },
+    {
+      "cutoff": "2021-07-12",
+      "split": "train",
+      "history": 17237,
+      "queries": 653,
+      "rows": 66108,
+      "positives": 1461,
+      "excluded_cold": 208
+    },
+    {
+      "cutoff": "2021-07-19",
+      "split": "train",
+      "history": 18906,
+      "queries": 606,
+      "rows": 61357,
+      "positives": 1363,
+      "excluded_cold": 191
+    },
+    {
+      "cutoff": "2021-07-26",
+      "split": "train",
+      "history": 20460,
+      "queries": 692,
+      "rows": 70023,
+      "positives": 1515,
+      "excluded_cold": 231
+    },
+    {
+      "cutoff": "2021-08-02",
+      "split": "train",
+      "history": 22206,
+      "queries": 716,
+      "rows": 72439,
+      "positives": 1555,
+      "excluded_cold": 206
+    },
+    {
+      "cutoff": "2021-08-09",
+      "split": "val",
+      "history": 23967,
+      "queries": 757,
+      "rows": 76735,
+      "positives": 1792,
+      "excluded_cold": 220
+    },
+    {
+      "cutoff": "2021-08-16",
+      "split": "test",
+      "history": 25979,
+      "queries": 830,
+      "rows": 84207,
+      "positives": 2037,
+      "excluded_cold": 244
+    }
+  ],
+  "graphs": [
+    {
+      "config": "graph16",
+      "seconds": 2.8458063000580296,
+      "nodes_rows": 2899,
+      "items": 2971,
+      "edges": 19738,
+      "dim": 16,
+      "categories": true,
+      "history_max": "2021-06-27",
+      "cutoff": "2021-06-28"
+    },
+    {
+      "config": "graph32",
+      "seconds": 2.633080600062385,
+      "nodes_rows": 2899,
+      "items": 2971,
+      "edges": 19738,
+      "dim": 32,
+      "categories": true,
+      "history_max": "2021-06-27",
+      "cutoff": "2021-06-28"
+    },
+    {
+      "config": "no_categories",
+      "seconds": 2.516474000061862,
+      "nodes_rows": 2847,
+      "items": 2971,
+      "edges": 13796,
+      "dim": 16,
+      "categories": false,
+      "history_max": "2021-06-27",
+      "cutoff": "2021-06-28"
+    },
+    {
+      "config": "graph16",
+      "seconds": 2.302314699976705,
+      "nodes_rows": 3235,
+      "items": 3098,
+      "edges": 21788,
+      "dim": 16,
+      "categories": true,
+      "history_max": "2021-07-04",
+      "cutoff": "2021-07-05"
+    },
+    {
+      "config": "graph32",
+      "seconds": 2.348894599941559,
+      "nodes_rows": 3235,
+      "items": 3098,
+      "edges": 21788,
+      "dim": 32,
+      "categories": true,
+      "history_max": "2021-07-04",
+      "cutoff": "2021-07-05"
+    },
+    {
+      "config": "no_categories",
+      "seconds": 2.2558239999925718,
+      "nodes_rows": 3183,
+      "items": 3098,
+      "edges": 15592,
+      "dim": 16,
+      "categories": false,
+      "history_max": "2021-07-04",
+      "cutoff": "2021-07-05"
+    },
+    {
+      "config": "graph16",
+      "seconds": 2.228842700016685,
+      "nodes_rows": 3468,
+      "items": 3256,
+      "edges": 23749,
+      "dim": 16,
+      "categories": true,
+      "history_max": "2021-07-11",
+      "cutoff": "2021-07-12"
+    },
+    {
+      "config": "graph32",
+      "seconds": 2.27270229998976,
+      "nodes_rows": 3468,
+      "items": 3256,
+      "edges": 23749,
+      "dim": 32,
+      "categories": true,
+      "history_max": "2021-07-11",
+      "cutoff": "2021-07-12"
+    },
+    {
+      "config": "no_categories",
+      "seconds": 2.423543799901381,
+      "nodes_rows": 3416,
+      "items": 3256,
+      "edges": 17237,
+      "dim": 16,
+      "categories": false,
+      "history_max": "2021-07-11",
+      "cutoff": "2021-07-12"
+    },
+    {
+      "config": "graph16",
+      "seconds": 2.3498841000255197,
+      "nodes_rows": 3716,
+      "items": 3417,
+      "edges": 25740,
+      "dim": 16,
+      "categories": true,
+      "history_max": "2021-07-18",
+      "cutoff": "2021-07-19"
+    },
+    {
+      "config": "graph32",
+      "seconds": 2.4137301999144256,
+      "nodes_rows": 3716,
+      "items": 3417,
+      "edges": 25740,
+      "dim": 32,
+      "categories": true,
+      "history_max": "2021-07-18",
+      "cutoff": "2021-07-19"
+    },
+    {
+      "config": "no_categories",
+      "seconds": 2.318109199986793,
+      "nodes_rows": 3664,
+      "items": 3417,
+      "edges": 18906,
+      "dim": 16,
+      "categories": false,
+      "history_max": "2021-07-18",
+      "cutoff": "2021-07-19"
+    },
+    {
+      "config": "graph16",
+      "seconds": 2.4736317000351846,
+      "nodes_rows": 3926,
+      "items": 3558,
+      "edges": 27576,
+      "dim": 16,
+      "categories": true,
+      "history_max": "2021-07-25",
+      "cutoff": "2021-07-26"
+    },
+    {
+      "config": "graph32",
+      "seconds": 2.590177399921231,
+      "nodes_rows": 3926,
+      "items": 3558,
+      "edges": 27576,
+      "dim": 32,
+      "categories": true,
+      "history_max": "2021-07-25",
+      "cutoff": "2021-07-26"
+    },
+    {
+      "config": "no_categories",
+      "seconds": 2.5589263000292704,
+      "nodes_rows": 3874,
+      "items": 3558,
+      "edges": 20460,
+      "dim": 16,
+      "categories": false,
+      "history_max": "2021-07-25",
+      "cutoff": "2021-07-26"
+    },
+    {
+      "config": "graph16",
+      "seconds": 2.786548600066453,
+      "nodes_rows": 4211,
+      "items": 3692,
+      "edges": 29590,
+      "dim": 16,
+      "categories": true,
+      "history_max": "2021-08-01",
+      "cutoff": "2021-08-02"
+    },
+    {
+      "config": "graph32",
+      "seconds": 2.903975199908018,
+      "nodes_rows": 4211,
+      "items": 3692,
+      "edges": 29590,
+      "dim": 32,
+      "categories": true,
+      "history_max": "2021-08-01",
+      "cutoff": "2021-08-02"
+    },
+    {
+      "config": "no_categories",
+      "seconds": 2.7595966999651864,
+      "nodes_rows": 4158,
+      "items": 3692,
+      "edges": 22206,
+      "dim": 16,
+      "categories": false,
+      "history_max": "2021-08-01",
+      "cutoff": "2021-08-02"
+    },
+    {
+      "config": "graph16",
+      "seconds": 3.1094231999013573,
+      "nodes_rows": 4484,
+      "items": 3841,
+      "edges": 31649,
+      "dim": 16,
+      "categories": true,
+      "history_max": "2021-08-08",
+      "cutoff": "2021-08-09"
+    },
+    {
+      "config": "graph32",
+      "seconds": 3.2095452999928966,
+      "nodes_rows": 4484,
+      "items": 3841,
+      "edges": 31649,
+      "dim": 32,
+      "categories": true,
+      "history_max": "2021-08-08",
+      "cutoff": "2021-08-09"
+    },
+    {
+      "config": "no_categories",
+      "seconds": 3.14012300001923,
+      "nodes_rows": 4431,
+      "items": 3841,
+      "edges": 23967,
+      "dim": 16,
+      "categories": false,
+      "history_max": "2021-08-08",
+      "cutoff": "2021-08-09"
+    },
+    {
+      "config": "graph16",
+      "seconds": 3.8084970000199974,
+      "nodes_rows": 4763,
+      "items": 3963,
+      "edges": 33905,
+      "dim": 16,
+      "categories": true,
+      "history_max": "2021-08-15",
+      "cutoff": "2021-08-16"
+    },
+    {
+      "config": "graph32",
+      "seconds": 3.9849267000099644,
+      "nodes_rows": 4763,
+      "items": 3963,
+      "edges": 33905,
+      "dim": 32,
+      "categories": true,
+      "history_max": "2021-08-15",
+      "cutoff": "2021-08-16"
+    },
+    {
+      "config": "no_categories",
+      "seconds": 3.8017095000250265,
+      "nodes_rows": 4710,
+      "items": 3963,
+      "edges": 25979,
+      "dim": 16,
+      "categories": false,
+      "history_max": "2021-08-15",
+      "cutoff": "2021-08-16"
+    }
+  ]
+}

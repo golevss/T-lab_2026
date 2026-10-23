@@ -1,0 +1,33 @@
+{
+  "validation_pass": true,
+  "recall_pass": true,
+  "confirmation_pass": true,
+  "metrics": [
+    {
+      "name": "baseline",
+      "seconds": 109.38930769998115,
+      "logloss": 0.09733471521507421,
+      "roc_auc": 0.8141007896000458,
+      "ndcg10": 0.3532549358398931,
+      "recall10": 0.5046926084256285,
+      "queries": 848
+    },
+    {
+      "name": "candidate",
+      "seconds": 119.995134399971,
+      "logloss": 0.09518339746157962,
+      "roc_auc": 0.8271676461095017,
+      "ndcg10": 0.37293975632438897,
+      "recall10": 0.5366478342813363,
+      "queries": 848
+    }
+  ],
+  "comparison": {
+    "delta": 0.019684820484495942,
+    "ci_family95": [
+      0.008137150775424557,
+      0.03155772247089045
+    ],
+    "queries": 848
+  }
+}
